@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+
+        <meta charset="utf-8">
+        <title>CU FSAE Ordering</title>
+        <link rel = "stylesheet" href = "form.css">
+
+    </head>
+
+    <body>
+
+        <form action = "/form-handler" method = "post">
+            <ul>
+                <li>
+                    <lable for = "summary">Summary*</label>
+                    <input type = "text" id = "summary" name = "summary">
+                </li>
+
+                <li>
+                    <lable for = "dept">Department*</label>
+                    <select id = "dept" name = "dept">
+                        <option>Electrical Engineering</option>
+                        <option>Mechanical Engineering</option>
+                    </select>
+                </li>
+
+                <li>
+                    <lable for = "subs">Subsystem*</label>
+                    <select id = "subs" name = "subs">
+                        <option>Accumulator Electronics</option>
+                        <option>Battery Pack</option>
+                        <option>Body/Aero</option>
+                    </select>
+                </li>
+
+                <li>
+                    <lable for = "priority">Priority</label>
+                    <select id = "priority" name = "priority">
+                        <option>Highest</option>
+                        <option>High</option>
+                        <option selected>Medium</option>
+                        <option>Low</option>
+                        <option>Lowest</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label for = "vendor">Vendor*</label>
+                    <input type = "text" id = "vendor" name = "vendor">
+                </li>
+
+                <li>
+                    <label for = "part">Part Name*</label>
+                    <input type = "text" id = "part" name = "part">
+                </li>
+
+                <li>
+                    <label for = "partnum">Catalog Number</label>
+                    <input type = "text" id = "partnum" name = "partnum">
+                </li>
+
+                <li>
+                    <label for = "quant">Quantity*</label>
+                    <input type = "number" id = "quant" name = "quant">
+                </li>
+
+                <li>
+                    <label for = "cost">Unit Cost ($)*</label>
+                    <input type = "number" id = "cost" name = "cost">
+                </li>
+
+                <li>
+                    <label for = "fees">Shipping/Handling Fees ($)</label>
+                    <input type = "number" id = "fees" name = "fees">
+                </li>
+
+                <li>
+                    <label for = "link">Link to Product/Cart</label>
+                    <input type = "url" id = "link" name = "link">
+                </li>
+
+                <li>
+                    <label for = "reason">Reasoning</label>
+                    <textarea id = "reason" name = "reason">What the part will be used for / why it is needed</textarea>
+                </li>
+
+                <li>
+                    <label for = "add-info">Additional Info/Notes</label>
+                    <textarea id = "add-info" name = "add-info"></textarea>
+                </li>
+
+            </ul>
+    </body>
+</html>
