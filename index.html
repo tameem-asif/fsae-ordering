@@ -11,6 +11,18 @@
 
     <body>
 
+        <h1>
+            CU FSAE Ordering Page
+        </h1>
+
+        <p id="intro-txt">
+        Please use the following form to fill out an order request form. Carefully fill in the fields and make sure they are correct before hitting to submit button
+        </p>
+
+        <p id="req-txt">
+            <small>* Indicates required field</small>
+        </p>
+
         <form action = "/form-handler" method = "post">
             <ul>
                 <li>
@@ -91,6 +103,25 @@
                     <textarea id = "add-info" name = "add-info"></textarea>
                 </li>
 
+                <li>
+                    <hr aria-hidden="true">
+                </li>
+
+                <li>
+                    <button type="submit">
+                        Submit Order
+                    </button>
+                    <p id="submit-txt">
+                    Please press this button to submit the order
+                    </p>
+                </li>
             </ul>
+        </form>
+
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+
     </body>
+
 </html>
