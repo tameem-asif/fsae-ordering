@@ -6,16 +6,43 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'SFRounded-Semibold';
+    src: url('SFRounded-Semibold.woff2') format('woff2'),
+        url('SFRounded-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 html {
     font-family: 'SFRounded', sans-serif;
 }
 
-form {
+body {
+    display: block;
+    margin: 40px 0px 0px 0px;
+}
+
+form, h1, #intro-txt, #req-txt {
     width: 490px;
     float: left;
     margin-left: 21%;
     margin-right: 50%;
     display: flex;
+}
+
+h1 {
+    font-family: 'SFRounded-Semibold', sans-serif;
+    font-weight: 600;
+}
+
+#intro-txt, #req-txt {
+    margin-top: 0px;
+}
+
+#req-txt {
+    margin-bottom: 35px;
+    color: rgb(153,153,153);
 }
 
 ul {
@@ -107,3 +134,20 @@ button {
     border-width: 1px;
 }
 
+#submit-txt {
+    font-family: 'SFRounded', sans-serif;
+    color: rgb(153,153,153);
+    font-size: 15px;
+}
+
+footer {
+    display: inline-block;
+    width: 120%;
+    height: 200px;
+    font-family: 'SFRounded', sans-serif;
+    color: rgb(66,66,69);
+    font-size: 16px;
+    background-color: rgb(245,245,247);
+    margin-top: 100px; 
+    clear: both;
+}
