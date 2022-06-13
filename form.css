@@ -16,11 +16,16 @@
 
 html {
     font-family: 'SFRounded', sans-serif;
+    background-color: rgb(51,51,51);
+    overflow: auto;
 }
 
 body {
+    min-height: 100vh;
     display: block;
-    margin: 40px 0px 0px 0px;
+    margin: 44px 0px 0px 0px;
+    background-color: rgb(255,255,255);
+    overflow: auto;
 }
 
 form, h1, #intro-txt, #req-txt {
@@ -143,11 +148,16 @@ button {
 footer {
     display: inline-block;
     width: 120%;
-    height: 200px;
+    /* height: 200px; */
     font-family: 'SFRounded', sans-serif;
     color: rgb(66,66,69);
     font-size: 16px;
     background-color: rgb(245,245,247);
     margin-top: 100px; 
     clear: both;
+    float: left;
+    padding-left: 21%;
+    padding-right: 50%;
+    display: border-box;
+
 }
