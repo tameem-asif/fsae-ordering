@@ -23,7 +23,7 @@ html {
 body {
     min-height: 100vh;
     display: block;
-    margin: 44px 0px 0px 0px;
+    margin: 0px auto;
     background-color: rgb(255,255,255);
     overflow: auto;
 }
@@ -34,6 +34,7 @@ form, h1, #intro-txt, #req-txt {
     margin-left: 21%;
     margin-right: 50%;
     display: flex;
+	margin-top: 44px;
 }
 
 h1 {
