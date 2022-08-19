@@ -6,9 +6,12 @@ const https = require('https');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
+const dotenv = require('dotenv');
+dotenv.config();
 
 // MongoDB Connection
- mongoose.connect("mongodb+srv://tameem:2SGyBxdGMLKpJ6UY@cu-fsae.wdkxp.mongodb.net/?retryWrites=true&w=majority");
+const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cu-fsae.wdkxp.mongodb.net/?retryWrites=true&w=majority`
+mongoose.connect(uri);
 const client = mongoose.connection;
 
 client.on("Error", console.log.bind(console, "connection error"));
