@@ -26,8 +26,8 @@ var jsonParser = bodyParser.json()
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 // Certificates
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/tameem.dev/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/tameem.dev/fullchain.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/fsae.tameem.dev/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/fsae.tameem.dev/fullchain.pem', 'utf8');
 
 const credentials = {
 	key: privateKey,
@@ -97,10 +97,10 @@ const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
 // Creating HTTP and HTTPS servers
-httpServer.listen(8080, () => {
-	console.log('HTTP Server running on port 8080');
+httpServer.listen(80, () => {
+	console.log('HTTP Server running on port 80');
 });
 
-httpsServer.listen(8443, () => {
-	console.log('HTTPS Server running on port 8443');
+httpsServer.listen(443, () => {
+	console.log('HTTPS Server running on port 443');
 });

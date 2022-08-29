@@ -5,7 +5,7 @@ async function refresh_table()
 	
 	// TODO: Change function to use the getAll API call
 	
-	obj = await fetchAsync("http://137.184.49.130:8080/api/getAll");
+	obj = await fetchAsync("https://fsae.tameem.dev/api/getAll");
 	
 	var tbl = $("<table/>").attr("id","mytable").attr("class", "ord-table");
     $("#div1").append(tbl);
