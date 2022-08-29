@@ -1,14 +1,75 @@
-table {
+html {
+    background-color: rgb(51,51,51);
+    overflow: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: block;
+    margin: 0px auto;
+    background-color: rgb(255,255,255);
+    overflow: auto;
+}
+
+.navbar, #div1 {
+  margin-left: 21%;
+  margin-top: 44px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.navbar a {
+  font-family: 'SFRounded-Semibold', sans-serif;
+  font-weight: 600;
+  float: left;
+  color: rgb(51,51,51);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: rgb(51,51,51);
+}
+
+.navbar a.active {
+  background-color: rgb(51,51,51);
+  color: white;
+}
+
+
+
+.ord-table {
 	border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
-table thead tr {
-    background-color: #009879;
+.ord-table thead tr {
+    background-color: rgb(51,51,51);
     color: #ffffff;
     text-align: left;
+}
+
+.ord-table th,
+.ord-table td {
+    padding: 12px 15px;
+}
+
+.ord-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.ord-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.ord-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(51,51,51);
 }

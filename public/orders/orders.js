@@ -7,10 +7,12 @@ async function refresh_table()
 	
 	obj = await fetchAsync("http://137.184.49.130:8080/api/getAll");
 	
-	var tbl = $("<table/>").attr("id","mytable");
+	var tbl = $("<table/>").attr("id","mytable").attr("class", "ord-table");
     $("#div1").append(tbl);
 	var thead = $("<thead/>").attr("id","thead");
+	var tbody = $("<tbody/>").attr("id", "tbody");
 	$("#mytable").append(thead);
+	$("#mytable").append(tbody);
 
 	// Table Headings
 	var tr = "<tr>";
@@ -25,10 +27,9 @@ async function refresh_table()
         var td2="<td>"+obj[i]["quant"]+"</td>";
 		console.log(tr+td1+td2+tr_end);
 
-       $("#mytable").append(tr+td1+td2+tr_end);
+       $("#tbody").append(tr+td1+td2+tr_end);
     }
 
-	$("#mytable").attr("border", "2");
 }
 
 async function fetchAsync (url) {
