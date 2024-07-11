@@ -1,7 +1,4 @@
-# Select theme. Cayman is the current one
 remote_theme: pages-themes/cayman@v0.2.0
-
-# Some global variables for the theme
 title: Columbia University Formula Racing
-description:
+description: BLANK SPACE
 show_downloads: false
