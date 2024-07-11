@@ -4,3 +4,9 @@ $header-bg-color: #121928;
 $header-bg-color-secondary: #155799;
 
 @import "{{ site.theme }}";
+
+.page-header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
