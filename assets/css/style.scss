@@ -1,0 +1,13 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+.site-title::before {
+	content: url("/assets/images/fsae-logo-white-22.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
+}
