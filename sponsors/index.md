@@ -10,8 +10,8 @@ Our sponsors make our success possible.
 If you would like to donate to CUFR as a friend, alumnus, or sponsor,
 please use the following Columbia Secure Pay Links!
 
-<a href="https://securepay.cuit.columbia.edu/payment/pub/cufr-family&friends/" class="btn">Family, Friends, Alumni Contributions</a>
-<a href="https://securepay.cuit.columbia.edu/payment/pub/cufr-company-sponsor/" class="btn">Sponsor Contributions</a>
+<a href="https://securepay.cuit.columbia.edu/payment/pub/cufr-family&friends/" class="btn2">Family, Friends, Alumni Contributions</a>
+<a href="https://securepay.cuit.columbia.edu/payment/pub/cufr-company-sponsor/" class="btn2">Sponsor Contributions</a>
 
 If you are interested in becoming a CUFR sponsor, please contact our team at fsae@columbia.edu
 
