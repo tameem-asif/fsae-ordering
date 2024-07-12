@@ -15,7 +15,7 @@ $section-headings-color: #155799;
     display: inline-block;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.7);
-    background-color: rgb(20, 49, 215);
+    background-color: rgb(69, 129, 224);
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
     border-width: 1px;
@@ -23,7 +23,7 @@ $section-headings-color: #155799;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(127, 131, 232, 0.8);
       text-decoration: none;
       background-color: rgba(255, 255, 255, 0.2);
       border-color: rgba(255, 255, 255, 0.3);
