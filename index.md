@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<b><p style="text-align:center">
+<p style="text-align:center;font-weight:bold">
 Building excellent racecars every year takes a variety of skill sets, so there's a place for anyone and everyone on this team. We hope you can join us this year to give us your unique contributions!
-
-</p></b>
+</p>
 
 ![TeamPhoto](https://cdn.jsdelivr.net/gh/tameem-asif/fsae-ordering@pages/images/team_photos/2023TeamPhoto.jpg)
 
